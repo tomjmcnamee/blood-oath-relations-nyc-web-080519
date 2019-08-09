@@ -17,7 +17,7 @@ cult6 = Cult.new("Cult number 6", "over 3", 2001, "give us money")
 
 joe_follower = Follower.new("Joe", 25, "someone accept me")
 bill_follower = Follower.new("Bill", 35, "help")
-bob_follower = Follower.new("Bob", 55, "whats up")
+bob_follower = Follower.new("Bob", 54, "whats up")
 jill_follower = Follower.new("Jill", 25, "Girl Power!!!")
 
 
@@ -34,6 +34,7 @@ cult4.recruit_follower(bob_follower)
 bob_follower.join_cult(cult6)
 joe_follower.join_cult(cult6)
 joe_follower.join_cult(cult3)
+joe_follower.join_cult(heavens)
 
 binding.pry
 
